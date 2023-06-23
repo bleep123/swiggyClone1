@@ -1,0 +1,147 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+ .home{
+    display: flex;
+}
+
+.left{
+    margin-top: 49px;
+    margin-left: 41px;
+ }
+nav img{
+    width: 21%;
+    margin-left: -31px;
+ }
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 28px;
+}
+.btn{
+    border: none;
+    width: 115px;
+    height: 36px;
+    color: white;
+    background-color: black;
+    padding: 4px;
+}
+nav button{
+     border: none;
+     margin-inline:15px ;
+     margin-top: 7px;
+     font-size: 20px;
+     color: black;
+     background-color: transparent;
+
+ }
+ .ss{
+    width: 741px;
+}
+ .heading{
+    margin-left: 65px;
+    margin-top: 75px;
+}
+ .heading h1{
+    font-size: 40px;
+}
+ .heading p{
+    margin-top: 10px;
+    font-size: 21px;
+    color: gray;
+    font-family: sans-serif;
+}
+ .input{
+    display: flex;
+    margin-top: 25px;
+}
+ .heading input{
+    border-right: none;
+    width: 380px;
+    height: 38px;
+    border: 1px solid rgb(243, 72, 9);
+    padding: 10px;
+}
+ .input button{
+    border: none;
+    font-size: 21px;
+    width: 110px;
+    color: white;
+    background-color: rgb(237, 74, 15);
+    
+    
+}
+
+.col{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 45px;
+    color: white;
+    background-color: rgb(36, 18, 6);
+    
+}
+ .colb img{
+    width: 35%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    color: white;
+    background-color: black;
+}
+ .li {
+    margin-inline: 33px;
+}
+ .li img{
+    width: 53%;
+    border: 2px solid white;
+    border-radius: 4px;
+    margin-top: 11px;
+}
+
+.text h1{
+    margin-left: 162px;
+    font-size: 40px;
+
+}
+
+.text p{
+    margin-left: 162px;
+}
+
+.order{
+    display:flex;
+    
+}
+
+.a{
+   margin-left:153px;
+}
+
+.b{
+    margin-left:10px;
+}
+
+.c{
+    margin-left:170px;
+}
+
+.d{
+    margin-left:10px;
+}
+@media only screen and (max-width:942px){
+    body{
+        visibility: hidden;
+    }
+    .home{
+        background: url('../img/ss.jpg');
+    }
+}
